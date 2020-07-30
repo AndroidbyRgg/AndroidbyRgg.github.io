@@ -1,0 +1,87 @@
+/* */
+* { 
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+ul, ol {
+list-style: none;
+
+}
+
+.header {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height:;
+}
+
+
+.navbar {
+    background-color: rgb(040, 100, 140);
+    overflow: hidden;
+
+}
+.navbarli {
+    float: left;
+}
+.navitem {
+    background-color: rgb(040, 100, 140);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 15px;
+    text-align: center;
+    display: block;
+    
+}
+
+.navboton {
+    width: 150px;
+    height: 10px;
+    margin-top: 8px;
+    padding-top: 4px;
+    float: right;
+    text-decoration: none;
+    background-color: rgb(040, 100, 140);
+    color: whitesmoke;
+    border-radius: 10px 10px;
+    border: 2px solid white;
+    margin-right: 40px;
+}
+
+.subnavbar {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.subnavitem {
+    background-color: rgb(040, 100, 140);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+}
+
+.navitem:hover {
+    background-color: whitesmoke;
+    color: rgb(30, 75, 110);
+}
+
+.subnavitem:hover {
+    background-color: whitesmoke;
+    color: rgb(30, 75, 110);
+}
+
+.navbarli:hover > .subnavbar {
+    display: block;
+}
+
+.home {
+    background-color: rgb(30, 75, 110);
+    color: whitesmoke;
+}
+
