@@ -43,19 +43,19 @@
 }
 
 .tab_imagenes {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     width: 100%;
-    margin-left: 3em;
+    margin-left: 3vw;
     
 }
 
 .tab_screenshot {
-    width: 20%;
+    width: 8vw;
     float: left;
     display: flex;
-    padding-left: 0.3em;
-    border: 0.1em
+    padding-left: 0.3vw;
+    border: 0.1vw
 }
 
 .tab_descripcion{
