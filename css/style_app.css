@@ -4,9 +4,11 @@
 
 .tab_app {
     width: 40vw;
+    min-width: 28em;
     height: 55vw;
+    max-height: 120em;
     margin-top: 2vw;
-    margin-left: 15vw;
+    margin-left: 5vw;
     margin-bottom: 2vw;
     box-shadow: 10px 10px 5px 10px rgba(0,0,0,0.5);
 
@@ -14,7 +16,8 @@
 
 .tab_cabecera {
     width: 100%;
-    height: 10vw;  
+    height: 10vw;
+    min-height: 7em;  
     background-color: #8ecfd5;
     margin-bottom: 2em;
 
@@ -22,15 +25,21 @@
 
 .cabecera_icono {
     width:  5vw;
+    min-width: 4em;
     padding: 2vw;
     float: left;
 }
 
 .cabecera_datos {
     width: 15vw;
+    min-width: 12em;
     margin-left: 1vw;
     margin-top: 1vw;
     float: left;
+}
+
+.info {
+    width: 100%;
 }
 
 .cabecera_boton {
@@ -102,13 +111,14 @@
     font-family: Arial;
     text-align: left;
     color: gray;
-    font-size: 2vw;   
+    font-size: 2vw;
+    
 }
 
 
 #icono {
-    width: 5vw;
-    height: 5vw;
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
 
