@@ -59,10 +59,10 @@ body {
         font-size: 10px;
     }
 
-
-
+    a.boton_descargar {
+        font-size: 10px;
+    }
 }
-
 
 .app_name {
     width: 100%;
@@ -86,12 +86,39 @@ body {
 .cabecera_boton {
     width: 30%;
     height: 100%;
-    margin: auto;
-    vertical-align: middle;
     float: left;
+}
+
+.boton_descargar {
+    width: 50%;
+    min-width: 80px;
+    min-height: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 2%;
+    background-color: white;
+    color: #8ecfd5;
+    border-radius: 1vw 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    border: 2px solid white;
+    display: block;
+    margin: auto;
+    margin-top: 40%;
+}
+
+.boton_descargar:hover {
+    color: gray;
+    cursor: pointer;
     
 }
 
+.boton_descargar:active {
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    background-color: #8ecfd5;
+}
 .tab_imagenes {
     margin-top: 2vw;
     margin-bottom: 2vw;
@@ -147,27 +174,3 @@ body {
 
 
 
-.boton_descargar {
-    text-decoration: none;
-    padding: 1vw;
-    background-color: white;
-    color: #8ecfd5;
-    border-radius: 1vw 1vw;
-    font-family: Arial;
-    font-size: 1vw;
-    font-weight: bold;
-    border: 2px solid white;
-}
-
-.boton_descargar:hover {
-    color: gray;
-    cursor: pointer;
-    
-}
-
-.boton_descargar:active {
-    border: 2px solid white;
-    color: white;
-    cursor: pointer;
-    background-color: #8ecfd5;
-}
