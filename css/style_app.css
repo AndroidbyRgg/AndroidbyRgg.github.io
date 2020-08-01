@@ -62,6 +62,21 @@ body {
     a.boton_descargar {
         font-size: 10px;
     }
+
+    .app_texto {
+        font-size: 8px;
+    }
+
+}
+
+.app_enlace {
+    text-decoration: none;
+    color: gray;
+}
+
+.app_enlace:hover {
+    text-decoration: underline;
+
 }
 
 .app_name {
@@ -120,53 +135,40 @@ body {
     background-color: #8ecfd5;
 }
 .tab_imagenes {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
     width: 100%;
-    margin-left: 3vw;
-    
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .tab_screenshot {
-    width: 8vw;
+    width: 22%;
     float: left;
     display: flex;
-    padding-left: 0.3vw;
-    border: 0.1vw
+    padding-left: 1%;
+    border: 1%
 }
 
 .tab_descripcion{
-    width: 36vw;
-    margin-top: 2vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-bottom: 2vw1;
+    width: 80%;
+    height: 10vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
     float: left;
     
 }
 
-
-
-.app_enlace {
-    text-decoration: none;
-    color: gray;
-}
-
-.app_enlace:hover {
-    text-decoration: underline;
-
-}
-
 .app_texto {
-    font-family: Arial;
-    line-height: 2vw;
+    line-height: 175%;
     text-align: left;
     color: gray;
-    font-size: 1vw;
+    font-size: 15px;
 }
 
 .tabulado {
-    text-indent: 1vw;
+    text-indent: 1em;
 }
 
 
