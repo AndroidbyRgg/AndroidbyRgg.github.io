@@ -11,10 +11,10 @@ body {
 .tab_app {
     width: 40%;
     min-width: 350px;
-    height: 50vw;
-    margin-top: 4vw;
-    margin-left: 8vw;
-    margin-bottom: 2vw;
+    height: 50em;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
     box-shadow: 2vw 2vw 2vw 1vw rgba(0,0,0,0.25);
     
 }
