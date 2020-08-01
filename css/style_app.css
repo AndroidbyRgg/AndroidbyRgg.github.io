@@ -1,14 +1,18 @@
 * {
+    padding: 0px;
     margin: 0px;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: white;
 }
 
 .tab_app {
-    width: 40vw;
-    min-width: 28em;
-    height: 55vw;
-    max-height: 120em;
-    margin-top: 2vw;
-    margin-left: 5vw;
+    width: 40%;
+    min-width: 400px;
+    margin-top: 4vw;
+    margin-left: 8vw;
     margin-bottom: 2vw;
     box-shadow: 10px 10px 5px 10px rgba(0,0,0,0.5);
 
@@ -17,36 +21,73 @@
 .tab_cabecera {
     width: 100%;
     height: 10vw;
-    min-height: 7em;  
+    min-height: 100px;  
     background-color: #8ecfd5;
     margin-bottom: 2em;
 
 }
 
 .cabecera_icono {
-    width:  5vw;
-    min-width: 4em;
-    padding: 2vw;
+    
+    width:  20%;
+    height: 100%;
     float: left;
+}
+
+#icono {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    
 }
 
 .cabecera_datos {
-    width: 15vw;
-    min-width: 12em;
-    margin-left: 1vw;
-    margin-top: 1vw;
+    width: 50%;
+    height: 90%;
     float: left;
 }
 
-.info {
+@media screen and (max-width: 1000px){
+    
+    p.app_name {
+        font-size: 20px;   
+    }
+    
+    p.app_texto_cabecera {
+        font-size: 10px;
+    }
+
+
+
+}
+
+
+.app_name {
     width: 100%;
+    font-family: Arial;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 5%;
+    color: gray;
+    font-size: 2vw;   
+}
+
+.app_texto_cabecera {
+    font-family: Arial;
+    padding-left: 5%;
+    line-height: 1.6em;
+    text-align: left;
+    color: gray;
+    font-size: 1vw;
 }
 
 .cabecera_boton {
-    width: 8vw;
-    height: 2vw;
-    margin-top: 3vw;
-    margin-left: 4vw;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    vertical-align: middle;
     float: left;
     
 }
@@ -77,13 +118,7 @@
     
 }
 
-.app_texto_cabecera {
-    font-family: Arial;
-    line-height: 1.6vw;
-    text-align: left;
-    color: gray;
-    font-size: 1vw;
-}
+
 
 .app_enlace {
     text-decoration: none;
@@ -107,20 +142,10 @@
     text-indent: 1vw;
 }
 
-#app_name {
-    font-family: Arial;
-    text-align: left;
-    color: gray;
-    font-size: 2vw;
-    
-}
 
 
-#icono {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
+
+
 
 .boton_descargar {
     text-decoration: none;
